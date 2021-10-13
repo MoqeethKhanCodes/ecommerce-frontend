@@ -13,8 +13,10 @@ export class ProductService {
   
   
 
-  private baseUrl = "http://localhost:8080/api/products";
-  private categoryUrl = "http://localhost:8080/api/product-category";
+  //private baseUrl = "http://localhost:8080/api/products";
+  private baseUrl = "http://localhost:8080/ecommerce/api/products";
+  //private categoryUrl = "http://localhost:8080/api/product-category";
+  private categoryUrl = "http://localhost:8080/ecommerce/api/product-category";
 
   constructor(private httpClient : HttpClient) { }
 
